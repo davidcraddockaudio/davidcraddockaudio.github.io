@@ -77,23 +77,15 @@ params:
   ShowToc: true
   TocOpen: true # open contents automantically
   comments: true
+  pagerSize: 5
   images: ["/mugshot.png"]
   social:
     github: wordswords
     instagram: djdavidcraddock
 
-
-  profileMode:
-    enabled: false
-
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
-
   homeInfoParams:
     Title: "Music and Audio Portfolio"
+
     Content: >
       👋 This is a portfolio and record of the work I have undertaken in the audio and music industry.
 
@@ -105,9 +97,21 @@ params:
       <a href="mailto:3rp2mzocr@mozmail.com">Email me here.</a>
       <br/>
 
-assets:
-  disableHLJS: true
-  disableFingerprinting: true
+    socialIcons:
+      - name: instagram
+        title: My Instagram
+        url: "https://instagram.com/djdavidcraddock"
+
+    assets:
+      disableHLJS: true
+      disableFingerprinting: true
+
+    cover:
+      hidden: false
+      hiddenInList: false
+      hiddenInSingle: false
+      linkFullImages: true
+
 
 markup:
   goldmark:
@@ -124,13 +128,13 @@ markup:
       unsafe: true
       xhtml: false
 
-highlight:
-  noClasses: false
-  anchorLineNos: false
-  codeFences: true
-  guessSyntax: true
-  lineNos: true
-  style: monokai
+  highlight:
+    noClasses: false
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
 
 services:
   instagram:
