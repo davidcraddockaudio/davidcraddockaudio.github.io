@@ -100,9 +100,10 @@ params:
       I have been a professional [DJ for 15+ years](/DJing), a [Music Producer for 10+](/Production) and an [Engineer](/Engineering) and a [life-long learner of music](/Education) all my professional life.
       <br/>
       <br/>
-      <a href="mailto:3rp2mzocr@mozmail.com">Get in contact.</a>
-      <br/>
       <img loading="lazy" style="object-fit:contain;max-width:100%;max-height:100%;width:127px;height:127px;" src="/mugshot.png" alt="A picture of a happy audience at a DJ gig">
+      <br/>
+      <a href="mailto:3rp2mzocr@mozmail.com">Email me here.</a>
+      <br/>
 
 assets:
   disableHLJS: true
