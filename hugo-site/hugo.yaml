@@ -2,16 +2,22 @@ baseURL: "https://davidcraddockaudio.com"
 title: DavidCraddockAudio.com
 copyright: "© David Paul Craddock"
 paginate: 5
-theme: PaperMod
+theme: PaperMod-dpc
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: true
 buildExpired: true
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts", "papermod"]
+
+frontmatter:
+  date:
+  - date
+  - :git
+  - :fileModTime
 
 minify:
   disableXML: true
@@ -72,6 +78,10 @@ params:
   TocOpen: true # open contents automantically
   comments: true
   images: ["/mugshot.jpg"]
+  social:
+    github: wordswords
+    instagram: djdavidcraddock
+
 
   profileMode:
     enabled: false
@@ -85,7 +95,7 @@ params:
   homeInfoParams:
     Title: "Music and Audio Portfolio"
     Content: >
-      This is a portfolio and record of the work I have undertaken in the audio and music industry.
+      👋 This is a portfolio and record of the work I have undertaken in the audio and music industry.
 
       I have been a professional [DJ for 15+ years](/DJing), a [Music Producer for 10+](/Production) and an [Engineer](/Engineering) and a [life-long learner of music](/Education) all my professional life.
       <br/>
@@ -94,36 +104,38 @@ params:
       <br/>
       <center><img src="https://davidcraddockaudio.com/mugshot.jpg" alt="David Craddock" class="img-fluid rounded-circle" width="200"></center>
 
-  socialIcons:
-    - name: instagram
-      title: My Instagram
-      url: "https://instagram.com/djdavidcraddock"
-
-  assets:
-    disableHLJS: true
-    disableFingerprinting: true
-
-  cover:
-    hidden: false
-    hiddenInList: false
-    hiddenInSingle: false
-    linkFullImages: true
+assets:
+  disableHLJS: true
+  disableFingerprinting: true
 
 markup:
   goldmark:
+    backend: html5
+    failureLevel: fatal
+    noHeaderOrFooter: true
+    preserveTOC: true
+    sectionNumbers: false
+    trace: false
+    verbose: false
+    workingFolderCurrent: false
     renderer:
+      hardWraps: false
       unsafe: true
+      xhtml: false
 
-  highlight:
-    noClasses: false
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: true
-    lineNos: true
-    style: monokai
+highlight:
+  noClasses: false
+  anchorLineNos: false
+  codeFences: true
+  guessSyntax: true
+  lineNos: true
+  style: monokai
 
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
+  disqus:
+    shortname: davidcraddocknet
+
