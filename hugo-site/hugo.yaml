@@ -102,7 +102,7 @@ params:
       <br/>
       <a href="mailto:3rp2mzocr@mozmail.com">Get in contact.</a>
       <br/>
-      <center><img src="https://davidcraddockaudio.com/mugshot.jpg" alt="David Craddock" class="img-fluid rounded-circle" width="200"></center>
+      <img loading="lazy" style="object-fit:contain;max-width:100%;max-height:100%;width:127px;height:127px;" src="/mugshot.png" alt="A picture of a happy audience at a DJ gig">
 
 assets:
   disableHLJS: true
