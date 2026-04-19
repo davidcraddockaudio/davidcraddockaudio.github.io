@@ -7,13 +7,11 @@ url: /DJing/
 
 ![image](musicsetup.jpg)
 
-**Currently as of 25/5/25: I am DJing every Friday at around 11pm time on [Heavy Resistance Aberdeen](https://www.twitch.tv/heavyresistanceabz) which is a rock and metal Twitch DJ Stream, with Mark Chalmers and friends.**
-
 I'm an experienced professional multi-genre DJ. I have excellent technical skills, good creative mixing skills including extensive use of stems and live mashups, combined with a strong ability to read the crowd and a deep and diverse music knowledge.
 
 ## Experience
 
-* Twitch DJ - DJing on Mark Chalmers stream: [https://twitch.tv/heavyresistanceabz](https://twitch.tv/heavyresistanceabz) every Friday at 11pm, playing rock and metal music. - 1 year (**CURRENT**)
+* Twitch DJ - DJing on Mark Chalmers stream: [https://twitch.tv/heavyresistanceabz](https://twitch.tv/heavyresistanceabz) every Friday at 11pm, playing rock and metal music. - 1 year
 * Bar DJ – Manchester, UK – DJing multi-genre party music nearly every week in venues across Manchester, through a booking agency - [www.anfieldagency.co.uk](https://www.anfieldangency.co.uk) - 6 months
 * Twitch DJ – Manchester, UK – Ran a successful weekly Twitch.TV online DJ stream at [https://twitch.tv/DJDavidCraddock](https://twitch.tv/DJDavidCraddock) achieved Twitch Affiliate Status in the first month and now have over 500 followers, earning a fair amount for DJing every week, and also participating in charity events that raised thousands for charitable causes – 3 years
 * Event DJ - BBC - DJing at several events while working as as software engineer for the BBC, including twice at an official BBC 6 Music 'Introducing' event - 1 year

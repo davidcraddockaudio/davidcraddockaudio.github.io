@@ -13,6 +13,14 @@ My career in IT, software and as a technologist heavily intersects with this, fo
 
 I am an experienced studio technician with good understanding of OBS, Streamlabs OBS, lighting, MIDI, streaming cameras, balanced and unbalanced audio, ethernet and wireless netwoking, wiring patchbays, cable ties, rack equipment, configuring controllers, DMX lighting, maintaining older synths and building out Eurorack synthesizers.
 
+## Experience
+
+* Radio Station Technical - Leyland, UK - Working on Radio Leyland, a community radio station. Fixing audio, streaming, and computer-related technical problems.
+* Streaming Technician - Manchester, UK - Setting up a Twitch streaming studio for Mark Chalmers Twitch stream.
+* Streaming Technician - Manchester, UK - Setting up a very complex Twitch streaming studio for my own personal Twitch stream.
+* Streaming and Studio Technician - London - Designing, assembling and supporting a professional guitar tutors (Jon Hatton's) streaming setup
+* Studio Technician - Manchester, UK - Building out my own home music studio with dozens of synthisers. Using sound treatment, EQing, comprehensive midi routing and audio routing.
+
 ## Testimonials
 
 I was employed as a freelance consultant to design, assemble and support a professional guitar tutors streaming setup. This is what he had to say about what I did:
