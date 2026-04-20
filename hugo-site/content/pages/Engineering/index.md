@@ -15,7 +15,7 @@ I am an experienced studio technician with good understanding of OBS, Streamlabs
 
 ## Experience
 
-* Radio Station Technician - Leyland, UK - Working on Radio Leyland, a community radio station. Fixing audio, streaming, and computer-related technical problems.
+* Radio Station Technician - Leyland, UK - Started working with Radio Leyland in a voluntary capacity in April 2026.
 * Streaming Technician - Manchester, UK - Setting up a Twitch streaming studio for Mark Chalmers Twitch stream.
 * Streaming Technician - Manchester, UK - Setting up a very complex Twitch streaming studio for my own personal Twitch stream.
 * Streaming and Studio Technician - London - Designing, assembling and supporting a professional guitar tutors (Jon Hatton's) streaming setup
