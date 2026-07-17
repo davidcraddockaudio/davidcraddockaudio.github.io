@@ -1,55 +1,50 @@
 name: Deploy Hugo Site
 
-permissions:
-  id-token: write
-  contents: read
-  pages: write
-
 on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Remote all web content 
-      run: |
-        rm -f *
-        rm -rf ./public
-        rm -rf ./hugo-site
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token: ${{ secrets.PUBLIC_REPO_ACCESS_PAT_TOKEN }}
 
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with: 
-        submodules: 'recursive'
-        token: ${{ secrets.PUBLIC_REPO_ACCESS_PAT_TOKEN }}
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: 'latest'
+      - name: Setup checkout and print diagnostics
+        run: |
+          mv -f ./hugo-site/* ./ || true
+          pwd
+          ls -al
 
-    - name: Setup checkout and print diagnostics
-      run: |
-        mv -f ./hugo-site/* ./
-        pwd
-        ls -al
+      - name: GC
+        run: hugo --gc --config ./hugo.yaml
 
-    - name: GC
-      run: hugo --gc --config ./hugo.yaml
+      - name: Build
+        run: hugo --config ./hugo.yaml --buildDrafts --ignoreCache --enableGitInfo --minify
 
-    - name: Build
-      run: hugo --config ./hugo.yaml --buildDrafts --ignoreCache --enableGitInfo --minify
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
 
-    - name: Setup Pages
-      uses: actions/configure-pages@v6
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./public
 
-    - name: Upload Artifact
-      uses: actions/upload-pages-artifact@v5
-      with:
-        path: './public'
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v5
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
