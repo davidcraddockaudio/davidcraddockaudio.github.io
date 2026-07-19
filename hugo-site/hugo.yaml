@@ -32,9 +32,6 @@ languages:
       series: series
     menu:
       main:
-        - name: Search
-          url: search/
-          weight: 10
         - name: DJing
           url: DJing/
           weight: 11
