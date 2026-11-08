@@ -5,7 +5,11 @@ title: DJing
 url: /DJing/
 ---
 
-![image](musicsetup.jpg)
+{{< figure
+    src="musicsetup.jpg"
+    alt="Picture of one of my DJing setups."
+    caption="A picture of one of my DJing setups."
+>}}
 
 I'm an experienced professional multi-genre DJ. I have excellent technical skills, good creative mixing skills including extensive use of stems and live mashups, combined with a strong ability to read the crowd and a deep and diverse music knowledge.
 
